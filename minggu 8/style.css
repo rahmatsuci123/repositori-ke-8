@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.section{
+    background: url(skincare.jpg) center no-repeat;
+    
+}
+header{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type:none;
+}
+
+nav ul li a{
+    text-decoration: none;   
+    padding: 6px 16px;
+}
+nav ul li:hover{
+    background-color: white;
+}
+article{
+    
+    height: 500px;
+    width: 100%;
+    padding-left: 100px;
+}
+article p{
+    font-size: 20px;
+}
+article h4{
+    font-size: 40px;
+}
